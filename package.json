@@ -1,6 +1,8 @@
 {
   "name": "in-which-ilearn-react",
-  "version": "0.0.0",
+  "packageManager": "npm@6.x",
+  "version": "0.0.0-semantic-release",
+  "description": "It's a repository in which I'm learning React, it's shared in case it's useful for anyone else.",
   "license": "MIT",
   "scripts": {
     "build": "nx build",
@@ -20,6 +22,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@qiwi/semantic-release-gh-pages-plugin": "^5.2.3",
     "@nrwl/cli": "14.5.7",
     "@nrwl/cypress": "14.5.7",
     "@nrwl/eslint-plugin-nx": "^14.5.7",
@@ -28,6 +31,8 @@
     "@nrwl/react": "14.5.7",
     "@nrwl/web": "14.5.7",
     "@nrwl/workspace": "14.5.7",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "@testing-library/react": "13.3.0",
     "@types/jest": "27.4.1",
     "@types/node": "16.11.7",
@@ -48,8 +53,51 @@
     "nx": "14.5.7",
     "prettier": "^2.6.2",
     "react-test-renderer": "18.2.0",
+    "semantic-release": "^19.0.3",
     "ts-jest": "27.1.4",
     "ts-node": "10.9.1",
     "typescript": "~4.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimDMorris/InWhichILearnReact.git"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/github",
+      [
+        "@qiwi/semantic-release-gh-pages-plugin",
+        {
+          "src": "dist/apps/dashboard"
+        }
+      ],
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md"
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "CHANGELOG.md",
+            "package.json"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
+    ]
   }
 }
