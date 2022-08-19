@@ -77,6 +77,13 @@
         "jestConfig": "apps/dashboard/jest.config.ts",
         "passWithNoTests": true
       }
+    },
+    "stylelint": {
+      "executor": "nx-stylelint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/dashboard/**/*.css"]
+      }
     }
   },
   "tags": []
