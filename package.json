@@ -102,7 +102,7 @@
       [
         "@qiwi/semantic-release-gh-pages-plugin",
         {
-          "src": "dist/apps/dashboard"
+          "src": "dist/apps/portfolio"
         }
       ],
       [
