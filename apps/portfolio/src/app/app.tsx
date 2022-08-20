@@ -1,11 +1,30 @@
-import './app.css';
-import NxWelcome from './nx-welcome';
+import styles from './app.module.css';
+
+import Header from './header/header';
+import Nav from './nav/nav';
+import About from './about/about';
+import Experience from './experience/experience';
+import Services from './services/services';
+import Portfolio from './portfolio/portfolio';
+import Testimonials from './testimonials/testimonials';
+import Contact from './contact/contact';
+import Footer from './footer/footer';
 
 export function App() {
   return (
     <>
-      <NxWelcome title="portfolio" />
-      <div />
+      <div className={styles['container']}>
+        <h1>Welcome to portfolio!</h1>
+        <Header />
+        <Nav />
+        <About />
+        <Experience />
+        <Services />
+        <Portfolio />
+        <Testimonials />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 }
