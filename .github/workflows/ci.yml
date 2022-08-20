@@ -38,11 +38,11 @@ jobs:
       - name: Test
         run: npm run test
 
-      - name: Build Dashboard Site
-        run: npm run build --production
+      - name: Build Portfolio Site
+        run: npm run build portfolio --omit=dev
 
-      - name: Build JSON Docs
-        run: npm run build:compodoc-json
+      #      - name: Build JSON Docs
+      #        run: npm run build:compodoc-json
 
       #      - name: Build Docs Pages
       #        run: npm run build:compodoc
