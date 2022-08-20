@@ -1,7 +1,7 @@
 {
   "name": "in-which-ilearn-react",
   "packageManager": "npm@6.x",
-  "version": "0.0.0-semantic-release",
+  "version": "1.0.0",
   "description": "It's a repository in which I'm learning React, it's shared in case it's useful for anyone else.",
   "license": "MIT",
   "scripts": {
