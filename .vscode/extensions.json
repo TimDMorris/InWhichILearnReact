@@ -1,9 +1,14 @@
 {
   "recommendations": [
-    "nrwl.angular-console",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets",
     "esbenp.prettier-vscode",
     "firsttris.vscode-jest-runner",
-    "dbaeumer.vscode-eslint",
-    "stylelint.vscode-stylelint"
+    "nrwl.angular-console",
+    "planbcoding.vscode-react-refactor",
+    "stylelint.vscode-stylelint",
+    "wix.vscode-import-cost",
+    "wmaurer.change-case"
   ]
 }
