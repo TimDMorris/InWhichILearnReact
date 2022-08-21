@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.2.0...v1.3.0) (2022-08-21)
+
+
+### Features
+
+* **dashboard:** Initial Styling ([d1f3f88](https://github.com/TimDMorris/InWhichILearnReact/commit/d1f3f88011c552c4621e1177a78bd75b95bbe6ed))
+
 # [1.2.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.1.0...v1.2.0) (2022-08-21)
 
 
