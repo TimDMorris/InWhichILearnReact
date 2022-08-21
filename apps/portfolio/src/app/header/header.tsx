@@ -1,9 +1,11 @@
 import { CTA } from '@in-which-ilearn-react/ui-kit';
-import styles from './header.module.css';
+import { Socials } from '@in-which-ilearn-react/ui-kit';
 
-// import { CTA } from 'libs/ui-kit';
+import './header.css';
 
-/* eslint-disable-next-line */
+import profileImage from '../../assets/timdmorris_profile.png';
+
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface HeaderProps {}
 
 export function Header(props: HeaderProps) {
@@ -14,6 +16,13 @@ export function Header(props: HeaderProps) {
         <h1>Tim Morris</h1>
         <h5 className="text-light">UI Architect</h5>
         <CTA />
+        <Socials />
+        <div className="profile-image">
+          <img src={profileImage} alt="TimDMorris Profile" />
+        </div>
+        <a className="scroll__down" href="#contact">
+          Scroll Down
+        </a>
       </div>
     </header>
   );

@@ -1,11 +1,11 @@
-import styles from './ui-kit.module.css';
+import './ui-kit.module.css';
 
 /* eslint-disable-next-line */
 export interface UiKitProps {}
 
 export function UiKit(props: UiKitProps) {
   return (
-    <div className={styles['container']}>
+    <div>
       <h1>Welcome to UiKit!</h1>
     </div>
   );

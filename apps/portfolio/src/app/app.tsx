@@ -1,4 +1,4 @@
-import styles from './app.module.css';
+import './app.module.css';
 
 import Header from './header/header';
 import Nav from './nav/nav';
@@ -12,7 +12,7 @@ import Footer from './footer/footer';
 
 export function App() {
   return (
-    <div className={styles['container']}>
+    <div>
       <Header />
       <Nav />
       <About />
