@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.3.0...v1.4.0) (2022-08-21)
+
+
+### Features
+
+* **dashboard:** correct base href ([b1b71c4](https://github.com/TimDMorris/InWhichILearnReact/commit/b1b71c41c6285b5632b2a891a44dc9e3a61a7d7e))
+
 # [1.3.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.2.0...v1.3.0) (2022-08-21)
 
 
