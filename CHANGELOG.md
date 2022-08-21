@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.1.0...v1.2.0) (2022-08-21)
+
+
+### Features
+
+* **dashboard:** set base ([1d0e5a0](https://github.com/TimDMorris/InWhichILearnReact/commit/1d0e5a07b13643587ada2546265e4390cc3c71c1))
+
 # [1.1.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.0.0...v1.1.0) (2022-08-21)
 
 
