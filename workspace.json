@@ -5,6 +5,7 @@
     "dashboard": "apps/dashboard",
     "dashboard-e2e": "apps/dashboard-e2e",
     "portfolio": "apps/portfolio",
-    "portfolio-e2e": "apps/portfolio-e2e"
+    "portfolio-e2e": "apps/portfolio-e2e",
+    "ui-kit": "libs/ui-kit"
   }
 }

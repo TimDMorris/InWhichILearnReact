@@ -13,7 +13,6 @@ import Footer from './footer/footer';
 export function App() {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to portfolio!</h1>
       <Header />
       <Nav />
       <About />
