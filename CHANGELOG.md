@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.4.0...v1.5.0) (2022-08-21)
+
+
+### Features
+
+* **dashboard:** add ui-kit lib ([c51a8b6](https://github.com/TimDMorris/InWhichILearnReact/commit/c51a8b6509d5a283e7f28a8d77e1ed38fa0dc7f8))
+
 # [1.4.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.3.0...v1.4.0) (2022-08-21)
 
 
