@@ -40,7 +40,7 @@ jobs:
         run: npm run test
 
       - name: Build Portfolio Site
-        run: npm run build portfolio --omit=dev
+        run: npm run build:portfolio
 
       #      - name: Build JSON Docs
       #        run: npm run build:compodoc-json

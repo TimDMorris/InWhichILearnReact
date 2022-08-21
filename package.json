@@ -16,6 +16,7 @@
     "affected:test": "nx affected:test",
     "affected": "nx affected",
     "build": "nx build",
+    "build:portfolio": "nx build --project=portfolio --production",
     "cherry-pick-all": "./tools/cherry-pick-all.sh",
     "dep-graph": "nx dep-graph",
     "e2e": "nx e2e",
