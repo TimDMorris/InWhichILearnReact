@@ -12,20 +12,18 @@ import Footer from './footer/footer';
 
 export function App() {
   return (
-    <>
-      <div className={styles['container']}>
-        <h1>Welcome to portfolio!</h1>
-        <Header />
-        <Nav />
-        <About />
-        <Experience />
-        <Services />
-        <Portfolio />
-        <Testimonials />
-        <Contact />
-        <Footer />
-      </div>
-    </>
+    <div className={styles['container']}>
+      <h1>Welcome to portfolio!</h1>
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 
