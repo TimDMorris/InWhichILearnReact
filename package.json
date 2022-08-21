@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "It's a repository in which I'm learning React, it's shared in case it's useful for anyone else.",
   "license": "MIT",
+  "homepage": "https://timdmorris.github.io/InWhichILearnReact/",
   "scripts": {
     "affected:apps": "nx affected:apps",
     "affected:build": "nx affected:build",
