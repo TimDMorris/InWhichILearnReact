@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.5.0...v1.6.0) (2022-08-21)
+
+
+### Features
+
+* **dashboard:** enrich portfolio css ([2ca680f](https://github.com/TimDMorris/InWhichILearnReact/commit/2ca680f1d5f5f51bfab3c9b6db6a87d70184f176))
+
 # [1.5.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.4.0...v1.5.0) (2022-08-21)
 
 
