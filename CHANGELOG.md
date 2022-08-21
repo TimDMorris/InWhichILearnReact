@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.0.0...v1.1.0) (2022-08-21)
+
+
+### Features
+
+* **dashboard:** add favicons ([448aae7](https://github.com/TimDMorris/InWhichILearnReact/commit/448aae78921ae67f4bf6aac54e5b4aca4ca0633e))
+
 # 1.0.0 (2022-08-20)
 
 
