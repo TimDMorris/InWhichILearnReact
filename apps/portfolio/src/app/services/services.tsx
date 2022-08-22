@@ -1,14 +1,10 @@
-import styles from './services.module.css';
+import './services.css';
 
 /* eslint-disable-next-line */
 export interface ServicesProps {}
 
 export function Services(props: ServicesProps) {
-  return (
-    <div className={styles['container']}>
-      <h1>Welcome to Services!</h1>
-    </div>
-  );
+  return <section id="services">Services Will Go Here</section>;
 }
 
 export default Services;

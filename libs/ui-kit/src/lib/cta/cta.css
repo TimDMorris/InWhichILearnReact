@@ -4,3 +4,11 @@
   gap: 1.2rem;
   justify-content: center;
 }
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .cta {
+    margin-top: 1.7rem;
+    gap: 1rem;
+  }
+}

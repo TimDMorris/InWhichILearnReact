@@ -1,14 +1,10 @@
-import styles from './experience.module.css';
+import './experience.css';
 
 /* eslint-disable-next-line */
 export interface ExperienceProps {}
 
 export function Experience(props: ExperienceProps) {
-  return (
-    <div className={styles['container']}>
-      <h1>Welcome to Experience!</h1>
-    </div>
-  );
+  return <section id="experience">Experience Will Go Here</section>;
 }
 
 export default Experience;
