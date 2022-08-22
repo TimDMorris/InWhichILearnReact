@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.6.0...v1.7.0) (2022-08-22)
+
+
+### Features
+
+* **dashboard:** completed header ([c253f61](https://github.com/TimDMorris/InWhichILearnReact/commit/c253f61a0a40ce5240b42e815c88089d5070dd9b))
+
 # [1.6.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.5.0...v1.6.0) (2022-08-21)
 
 
