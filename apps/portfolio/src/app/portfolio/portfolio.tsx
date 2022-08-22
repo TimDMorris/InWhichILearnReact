@@ -1,14 +1,10 @@
-import styles from './portfolio.module.css';
+import './portfolio.css';
 
 /* eslint-disable-next-line */
 export interface PortfolioProps {}
 
 export function Portfolio(props: PortfolioProps) {
-  return (
-    <div className={styles['container']}>
-      <h1>Welcome to Portfolio!</h1>
-    </div>
-  );
+  return <section id="portfolio">Portfolio Will Go Here</section>;
 }
 
 export default Portfolio;
