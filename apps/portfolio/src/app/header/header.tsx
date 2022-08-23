@@ -20,7 +20,7 @@ export function Header(props: HeaderProps) {
         <div className="profile-image">
           <img src={profileImage} alt="TimDMorris Profile" />
         </div>
-        <a className="scroll__down" href="#contact">
+        <a className="scroll__down" href="#about">
           Scroll Down
         </a>
       </div>
