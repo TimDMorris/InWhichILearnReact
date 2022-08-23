@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.7.0...v1.8.0) (2022-08-23)
+
+
+### Features
+
+* **dashboard:** build out nav ([b553c17](https://github.com/TimDMorris/InWhichILearnReact/commit/b553c17bc6ac7db7fda6d69f367ce8e2c47b8527))
+
 # [1.7.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.6.0...v1.7.0) (2022-08-22)
 
 
