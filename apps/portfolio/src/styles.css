@@ -14,11 +14,23 @@
 
 :root {
   --color-bg: #21164f;
+
+  /* TO DO: Debug this does not seem to work */
+  --color-bg-dark: hsl(from var(--color-bg) h s calc(l - 10%));
+  --color-bg-darkest: hsl(from var(--color-bg) h s calc(l - 20%));
+
   --color-bg-variant: #2c2c6c;
   --color-primary: #17bfff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
+
+  /* TO DO: color naming should be semantic, i.e. describe what is not "white" */
   --color-white: #fff;
+
   --color-light: rgba(255, 255, 255, 0.6);
+
+  --color-bg-hover: rgba(0, 0, 0, 0.3);
+
+  --color-overlay: rgba(0, 0, 0, 0.3);
 
   --transition: all 400ms ease;
 

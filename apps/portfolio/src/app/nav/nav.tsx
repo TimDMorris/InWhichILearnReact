@@ -13,20 +13,25 @@ export interface NavProps {}
 export function Nav(props: NavProps) {
   return (
     <nav>
-      <a href="#home" title="Home">
-        <FaHome />
+      <a href="#home" className="active" title="Home">
+        <FaHome aria-hidden="true" focusable="false" />
+        <span className="sr-only">Home</span>
       </a>
       <a href="#about" title="About">
-        <FaUserAlt />
+        <FaUserAlt aria-hidden="true" focusable="false" />
+        <span className="sr-only">About</span>
       </a>
       <a href="#experience" title="Experience">
-        <FaBook />
+        <FaBook aria-hidden="true" focusable="false" />
+        <span className="sr-only">Experience</span>
       </a>
       <a href="#services" title="Services">
-        <FaBriefcase />
+        <FaBriefcase aria-hidden="true" focusable="false" />
+        <span className="sr-only">Services</span>
       </a>
       <a href="#contact" title="Contact">
-        <FaEnvelope />
+        <FaEnvelope aria-hidden="true" focusable="false" />
+        <span className="sr-only">Contact</span>
       </a>
     </nav>
   );
