@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.8.0...v1.9.0) (2022-08-24)
+
+
+### Features
+
+* **dashboard:** completed nav ([8277977](https://github.com/TimDMorris/InWhichILearnReact/commit/82779774d0ce9077d2f81a209bf30be1fd47cdd3))
+
 # [1.8.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.7.0...v1.8.0) (2022-08-23)
 
 
