@@ -19,9 +19,10 @@
   --color-bg-dark: hsl(from var(--color-bg) h s calc(l - 10%));
   --color-bg-darkest: hsl(from var(--color-bg) h s calc(l - 20%));
 
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #17bfff;
+  --color-bg-variant: #1f2769;
+  --color-primary: #f7796b;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --volor-variant: #18bfff;
 
   /* TO DO: color naming should be semantic, i.e. describe what is not "white" */
   --color-white: #fff;
@@ -78,16 +79,15 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 section > h2,
-h5 {
+section > h5 {
   text-align: center;
   color: var(--color-light);
 }
 
-SECTION > h2 {
+section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
 }
