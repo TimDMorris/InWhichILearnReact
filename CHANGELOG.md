@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.9.0...v1.9.1) (2022-08-27)
+
+
+### Bug Fixes
+
+* **e2e:** security of logging ([929baf1](https://github.com/TimDMorris/InWhichILearnReact/commit/929baf112bc88af2bb78b4723f69518f7d282e90))
+
 # [1.9.0](https://github.com/TimDMorris/InWhichILearnReact/compare/v1.8.0...v1.9.0) (2022-08-24)
 
 
