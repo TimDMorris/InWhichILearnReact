@@ -22,7 +22,7 @@
   --color-bg-variant: #1f2769;
   --color-primary: #f7796b;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
-  --volor-variant: #18bfff;
+  --color-variant: #18bfff;
 
   /* TO DO: color naming should be semantic, i.e. describe what is not "white" */
   --color-white: #fff;
